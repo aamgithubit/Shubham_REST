@@ -15,7 +15,7 @@ public class GoRestAPITest {
 	public void getSingleUser() {
 		
 		baseURI = "https://gorest.co.in";
-		//abhishek 
+
 		Response response = given()
 		      .header("Authorization", "Bearer 9857c8f69677407f12fcdbf8cc74373f63bbd43d750f12601d5751d315b41f89")
 		.when().log().all()
@@ -53,10 +53,6 @@ public class GoRestAPITest {
 		String mail = js.get("email");
 		
 		System.out.println("Mail id is = " + mail);
-
-		
-//Shubham
-		
 		
 	}
 
