@@ -19,7 +19,7 @@ public class GoRestAPITest {
 
 		Response response = given()
 				.header("Authorization", "Bearer 9857c8f69677407f12fcdbf8cc74373f63bbd43d750f12601d5751d315b41f89")
-				.when().log().all().get("/public/v2/users");
+				.when().log().all().get("/public/v2/users/8135449");
 
 		System.out.println("status code = " + response.statusCode());
 
