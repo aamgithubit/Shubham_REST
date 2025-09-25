@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="1" total="2" passed="1" failed="0" skipped="0">
+<testng-results ignored="2" total="3" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-09-20T12:42:55 IST" name="Default suite" finished-at="2025-09-20T12:42:59 IST" duration-ms="4257">
+  <suite started-at="2025-09-25T16:16:16 IST" name="Default suite" finished-at="2025-09-25T16:16:19 IST" duration-ms="3578">
     <groups>
     </groups>
-    <test started-at="2025-09-20T12:42:55 IST" name="Default test" finished-at="2025-09-20T12:42:59 IST" duration-ms="4257">
-      <class name="GET_API_BDD.QueryParameter">
-        <test-method signature="queryParamWithHashmap()[pri:0, instance:GET_API_BDD.QueryParameter@483f6d77]" started-at="2025-09-20T12:42:55 IST" name="queryParamWithHashmap" finished-at="2025-09-20T12:42:59 IST" duration-ms="4191" status="PASS">
+    <test started-at="2025-09-25T16:16:16 IST" name="Default test" finished-at="2025-09-25T16:16:19 IST" duration-ms="3578">
+      <class name="postAPI_test.CreateUserTest">
+        <test-method signature="createUserWithJsonFileWithEmailReplacementTest()[pri:0, instance:postAPI_test.CreateUserTest@28f3b248]" started-at="2025-09-25T16:16:16 IST" name="createUserWithJsonFileWithEmailReplacementTest" finished-at="2025-09-25T16:16:19 IST" duration-ms="3484" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- queryParamWithHashmap -->
-      </class> <!-- GET_API_BDD.QueryParameter -->
+        </test-method> <!-- createUserWithJsonFileWithEmailReplacementTest -->
+      </class> <!-- postAPI_test.CreateUserTest -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

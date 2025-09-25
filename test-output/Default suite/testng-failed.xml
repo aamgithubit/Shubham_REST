@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="GET_API_BDD.QueryParameter">
+      <class name="postAPI_test.CreateUserTest">
         <methods>
-          <include name="queryParam"/>
+          <include name="createUserWithJsonFileWithEmailReplacementTest"/>
         </methods>
-      </class> <!-- GET_API_BDD.QueryParameter -->
+      </class> <!-- postAPI_test.CreateUserTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
