@@ -42,8 +42,9 @@ public class CreateUserTest {
 		
 		given()
 		      .contentType(ContentType.JSON)
-		      .header("Authorization", "Bearer 9857c8f69677407f12fcdbf8cc74373f63bbd43d750f12601d5751d315b41f89")
+		      .header("Authorization", "Bearer 2ebc0848e7ee50e3a22a64a2344f0fb2b2495de58571b52f8e114f66684fdeb3")
 		  	.body(new File("./src/test/resources/json/titanic-parquet.json"))
+
 	    .when()
 	           .post("/public/v2/users")
 	    .then().log().all()
@@ -61,7 +62,7 @@ public class CreateUserTest {
 		
 		//convert the json file content to string:
 		String rawJson = new String(Files.readAllBytes(Paths.get("./src/test/resources/json/titanic-parquet.json")));
-		String updatedJson = rawJson.replace("{{email}}", emailId);		
+		String updatedJson = rawJson.replace("bb@c.com", emailId);		
 		
 		int userId = given().log().all()
 			.contentType(ContentType.JSON)

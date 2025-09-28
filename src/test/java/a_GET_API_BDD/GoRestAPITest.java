@@ -18,8 +18,8 @@ public class GoRestAPITest {
 		baseURI = "https://gorest.co.in";
 
 		Response response = given()
-				.header("Authorization", "Bearer 9857c8f69677407f12fcdbf8cc74373f63bbd43d750f12601d5751d315b41f89")
-				.when().log().all().get("/public/v2/users/8135449");
+				.header("Authorization", "Bearer 2ebc0848e7ee50e3a22a64a2344f0fb2b2495de58571b52f8e114f66684fdeb3")
+				.when().log().all().get("/public/v2/users/8153041");
 
 		System.out.println("status code = " + response.statusCode());
 
