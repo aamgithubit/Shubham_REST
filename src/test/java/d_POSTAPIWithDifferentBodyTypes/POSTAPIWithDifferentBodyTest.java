@@ -1,4 +1,4 @@
-package POSTAPIWithDifferentBodyTypes;
+package d_POSTAPIWithDifferentBodyTypes;
 
 
 import static io.restassured.RestAssured.given;

@@ -1,4 +1,4 @@
-package GET_API_NON_BDD;
+package b_GET_API_NON_BDD;
 
 import static io.restassured.RestAssured.*;
 

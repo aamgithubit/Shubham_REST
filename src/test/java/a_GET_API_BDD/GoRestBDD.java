@@ -1,4 +1,4 @@
-package GET_API_BDD;
+package a_GET_API_BDD;
 
 import org.testng.annotations.Test;
 

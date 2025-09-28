@@ -1,4 +1,4 @@
-package postAPI_test;
+package c_postAPI_test;
 
 import org.testng.annotations.Test;
 
