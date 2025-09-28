@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="postAPI_test.CreateUserTest">
+      <class name="POSTAPIWithDifferentBodyTypes.POSTAPIWithDifferentBodyTest">
         <methods>
-          <include name="createUserWithJsonFileWithEmailReplacementTest"/>
+          <include name="bodyWithFormDataMultipPartTest"/>
         </methods>
-      </class> <!-- postAPI_test.CreateUserTest -->
+      </class> <!-- POSTAPIWithDifferentBodyTypes.POSTAPIWithDifferentBodyTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
