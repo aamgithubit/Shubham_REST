@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="POSTAPIWithDifferentBodyTypes.POSTAPIWithDifferentBodyTest">
+      <class name="f_usingPOJO.CreateUserUsingPOJOTest">
         <methods>
-          <include name="bodyWithFormDataMultipPartTest"/>
+          <include name="createUserTest"/>
         </methods>
-      </class> <!-- POSTAPIWithDifferentBodyTypes.POSTAPIWithDifferentBodyTest -->
+      </class> <!-- f_usingPOJO.CreateUserUsingPOJOTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
